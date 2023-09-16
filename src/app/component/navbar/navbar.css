@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #acb1f5;
+  background-color: #111111;
   color: #fff;
   height: 10vh;
 }
@@ -14,14 +14,13 @@
 }
 
 .personal-information .person-photo {
-  background-image: url('/image/personalphoto.jpg');
-  background-position: center; 
-  background-repeat: no-repeat; 
+  background-image: url("/image/personalphoto.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  border-radius: 50%; 
+  border-radius: 50%;
   height: 8vh;
   width: 8vh;
-  
 }
 
 .personal-information .name {
@@ -45,15 +44,18 @@
 
 .options ul li {
   font-size: 20px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .options ul li a {
   text-decoration: none;
-  color: #fff;
+  padding: 10px;
+  color: #ffffff;
 }
 
 .options ul li a:hover {
-  color: #656565;
+  color: #B3B3B3;
+  padding: 10px;
+  border-radius: 10px;
 }
