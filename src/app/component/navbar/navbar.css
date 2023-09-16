@@ -1,25 +1,59 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  height: 10vh;
   background-color: #acb1f5;
   color: #fff;
+  height: 10vh;
 }
+
 .personal-information {
   display: flex;
   align-items: center;
 }
-.personal-information > .person-photo {
-  width: 6%;
-  border-radius: 50%;
-  padding-left: 10px;
-  padding-right: 10px;
 
+.personal-information .person-photo {
+  background-image: url('/image/personalphoto.jpg');
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  border-radius: 50%; 
+  height: 8vh;
+  width: 8vh;
+  
 }
-.name {
+
+.personal-information .name {
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  padding-left: 10px;
-  padding-right: 10px;
+  /* margin-left: 10px; */
+  /* margin-right: 10px; */
   font-size: 20px;
+}
+
+.options {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+.options ul {
+  display: flex;
+  list-style: none;
+}
+
+.options ul li {
+  font-size: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.options ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.options ul li a:hover {
+  color: #656565;
 }
