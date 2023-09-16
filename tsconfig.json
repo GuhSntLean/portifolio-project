@@ -23,9 +23,6 @@
       "@/*": ["./src/*"]
     }
   },
-<<<<<<< HEAD
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-=======
   "include": [
     "next-env.d.ts",
     "**/*.ts",
@@ -34,6 +31,5 @@
     "src/**/tsx",
     "src/**/ts"
   ],
->>>>>>> origin/feature/newhome
   "exclude": ["node_modules"]
 }
