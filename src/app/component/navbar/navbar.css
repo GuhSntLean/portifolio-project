@@ -1,25 +1,65 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #111111;
+  color: #ffffff;
   height: 10vh;
-  background-color: #acb1f5;
-  color: #fff;
 }
+
 .personal-information {
   display: flex;
   align-items: center;
 }
-.personal-information > .person-photo {
-  width: 6%;
-  border-radius: 50%;
-  padding-left: 10px;
-  padding-right: 10px;
 
+.personal-information .person-photo {
+  background-image: url("/image/personalphoto.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 7vh;
+  width: 7vh;
 }
-.name {
+
+.personal-information .name {
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.options {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+
+.options ul {
+  display: flex;
+  list-style: none;
+}
+
+.options ul li {
+  font-size: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.options ul li a {
+  text-decoration: none;
+  padding: 10px;
+  color: #ffffff;
+  transition: 0.4s;
+}
+
+.options ul li a:hover {
+  color: #B3B3B3;
+  padding: 10px;
+  border-radius: 10px;
   font-size: 20px;
 }
