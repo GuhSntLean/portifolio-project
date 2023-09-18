@@ -14,5 +14,5 @@
 
 # Sobre
 
-    Esse projeto tem como objetivo mostrar sobre o historico profissional na area de desenvolvimento.
+Esse projeto tem como objetivo mostrar sobre um hitorico profissional de forma resumida, atraves de uma aplicação front-end.
 

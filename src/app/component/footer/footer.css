@@ -1,7 +1,16 @@
-.footer { 
-    display: absolute;
-    background: #272B33;
-    height: 200px;
-    margin-top:20px;
-    /* width:100%; */
+.footer {
+  position: flex;
+  flex-wrap: wrap;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 20vh;
+  background: #272B33;
+}
+
+.icon-up-page {
+  display: flex;
+  color: #ffffff;
+  fill: green;
+  items-position: center;
 }
