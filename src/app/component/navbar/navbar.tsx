@@ -2,7 +2,8 @@ import "./navbar.css";
 
 function NavBar() {
   return (
-    <nav className="navbar">
+    // <nav className="header">
+    <nav>
       <div className="personal-information">
         <a href="#" className="person-photo"></a>
         <p className="name">Gustavo S. Leandro</p>

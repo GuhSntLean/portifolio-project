@@ -1,15 +1,5 @@
 .footer {
-  position: fixed;
-  bottom:0;
-  left:0;
+  margin-top: 5px;
   height: 20vh;
   background: #272b33;
-  margin-top: 10px;
-}
-
-.icon-up-page {
-  display: flex;
-  color: #ffffff;
-  fill: green;
-  items-position: center;
 }

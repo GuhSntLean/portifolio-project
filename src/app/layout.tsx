@@ -1,4 +1,5 @@
-import "./globals.css";
+// import "./globals.css";
+import "./style/globals.css"
 
 export const metadata = {
   title: "Gustavo S. Leandro",
