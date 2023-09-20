@@ -20,17 +20,8 @@ body {
   grid-template-rows: 10vh auto 15vh;
   grid-template-area: "header" "content" "footer";
   min-height: 100%;
-  /* background: #566573 ; */
-}
-
-.header {
-  background-color: #6ab2ff;
 }
 
 .content {
   background-color: #ffff;
-}
-
-.footer {
-  background-color: #c1a;
 }

@@ -1,16 +1,14 @@
-// import Footer from "./component/footer/footer";
-// import NavBar from "./component/navbar/navbar";
+import Footer from "./component/footer/footer";
+import NavBar from "./component/navbar/navbar";
 
 export default function Home() {
   return (
     <>
       <div className="container">
-        {/* <NavBar /> */}
-        <div className="header"></div>
+        <NavBar />
         <div className="content">
         </div>
-        <div className="footer"></div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );

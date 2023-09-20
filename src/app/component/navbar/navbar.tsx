@@ -2,8 +2,7 @@ import "./navbar.css";
 
 function NavBar() {
   return (
-    // <nav className="header">
-    <nav>
+    <nav className="header">
       <div className="personal-information">
         <a href="#" className="person-photo"></a>
         <p className="name">Gustavo S. Leandro</p>
