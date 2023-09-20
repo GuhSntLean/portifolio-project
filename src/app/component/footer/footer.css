@@ -1,11 +1,10 @@
 .footer {
-  position: flex;
-  flex-wrap: wrap;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+  position: fixed;
+  bottom:0;
+  left:0;
   height: 20vh;
-  background: #272B33;
+  background: #272b33;
+  margin-top: 10px;
 }
 
 .icon-up-page {
