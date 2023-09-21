@@ -1,4 +1,38 @@
 .footer {
-  height: 20vh;
-  background: #272b33;
+    display: flex;
+    background: #272b33;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    color:  #E7E9EB;
+    align-items: center;
+    justify-content: space-around ;
+}
+
+.information-licence {
+  font-size: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.options-footer > ul{
+  display: flex;
+  flex-direction: colunm;
+  list-style: none;
+  margin-left: 5px; 
+  margin-right: 5px
+}
+
+.options-footer > ul > li{
+  font-size: 16px;
+  margin-left: 5px; 
+  margin-right: 5px
+}
+
+.options-footer > ul > li > a {
+  text-decoration: none;
+  color:  #E7E9EB;
+  transition: 0.4s;
+}
+
+.options-footer > ul > li > a:hover {
+  color: #B3B3B3;
 }
