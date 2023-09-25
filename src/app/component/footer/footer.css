@@ -1,8 +1,8 @@
 .footer {
     display: flex;
-    background: #272b33;
+    background: var(--color4);
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-    color:  #E7E9EB;
+    color:  var(--color2);
     align-items: center;
     justify-content: space-around ;
 }
@@ -29,10 +29,10 @@
 
 .options-footer > ul > li > a {
   text-decoration: none;
-  color:  #E7E9EB;
+  color:  var(--color2);
   transition: 0.4s;
 }
 
 .options-footer > ul > li > a:hover {
-  color: #B3B3B3;
+  color: var(--color1);
 }

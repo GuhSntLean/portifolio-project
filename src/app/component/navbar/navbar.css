@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: space-around;
   background: #272b33;
-  color: #ffffff;
+  color: var(--color4);
 }
 
 .personal-information {
@@ -52,12 +52,12 @@
 .options ul li a {
   text-decoration: none;
   padding: 10px;
-  color: #ffffff;
+  color: var(--color2);
   transition: 0.4s;
 }
 
 .options ul li a:hover {
-  color: #B3B3B3;
+  color: var(--color1);;
   padding: 10px;
   border-radius: 10px;
 }

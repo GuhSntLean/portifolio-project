@@ -1,9 +1,9 @@
 .contact {
-    background: #FFC300;
-    height: 50vh;
+    display: flex;
+    justify-content: center;
+    background: #808080;
 }
 
 .social-contact {
-    background: #0061FF;
-    height: 35vh;
+    background: #808080;
 }

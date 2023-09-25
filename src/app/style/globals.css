@@ -1,5 +1,12 @@
 :root {
   --font-mono: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  /* Paleta de cores para os objs */
+  --color1: #8acbff;
+  --color2: #c1f2ff;
+  --color3: #001e36;
+  --color4: #272b33;
+  --color5: #73777c;
+  --color6: #e2e2e2;
 }
 
 * {
@@ -11,7 +18,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #566573;
+  background: var(--color6);
   height: 100%;
 }
 
