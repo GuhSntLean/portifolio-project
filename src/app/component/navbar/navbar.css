@@ -4,7 +4,7 @@
   flex-direction: row;
   justify-content: space-around;
   background: #272b33;
-  color: var(--color4);
+  color: var(--color6);
 }
 
 .personal-information {
@@ -25,10 +25,11 @@
 }
 
 .personal-information .name {
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  font-family: "Caveat" ;
   margin-right: 10px;
   margin-left: 10px;
-  font-size: 20px;
+  font-size: 30px;
+  color: var(--color6)
 }
 
 .options {
@@ -52,7 +53,7 @@
 .options ul li a {
   text-decoration: none;
   padding: 10px;
-  color: var(--color2);
+  color: var(--color6);
   transition: 0.4s;
 }
 

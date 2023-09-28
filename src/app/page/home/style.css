@@ -1,0 +1,35 @@
+.banner {
+  border-top: 0.1px solid var(--color5);
+  height: 70vh;
+  background: var(--color4);
+  display: grid;
+  grid-template-rows: 60% 30% 10%;
+}
+
+.name-container {
+  display: flex;
+  aling-itens: center;
+  justify-content: center;
+}
+
+.name-autor {
+  font-family: "Caveat";
+  color: var(--color6);
+  font-size: 60px;
+}
+
+.next-item {
+  display: flex;
+  aling-itens: center;
+  justify-content: center;
+}
+
+.arrow-down {
+  height: 40px;
+  width: 40px;
+  fill: var(--color6);
+}
+
+.arrow-down:hover {
+  fill: var(--color2);
+}
